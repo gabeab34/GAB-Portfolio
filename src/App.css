@@ -1,0 +1,22 @@
+
+.nav-tabs
+{
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+  background: repeating-linear-gradient( 45deg, red, blue )
+}
+
+li {
+  margin: 0 20px;
+  color: white;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:visited {
+  color: red;
+}
