@@ -4,19 +4,35 @@
   display: flex;
   justify-content: end;
   padding: 5px;
-  background: repeating-linear-gradient( 45deg, red, blue )
+  background: repeating-linear-gradient( 45deg, purple, lime );
+  height: 100px;
+  margin-top: 0px;
+}
+
+#myname {
+  position: relative;
+  left: -700px;
+  bottom: 20px;
+  top: -20px;
+}
+
+h1 {
+  font-size: 50px;
+  
 }
 
 li {
   margin: 0 20px;
+  margin-top: 20px;
   color: white;
 }
 
 li a {
   color: white;
   text-decoration: none;
+  font-size: 36px;
 }
 
 li a:visited {
-  color: red;
+  color: purple;
 }
