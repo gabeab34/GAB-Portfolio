@@ -3,7 +3,7 @@ import myPic from '../assets/GAB.jpg'
 
 export default function Home() {
   return (
-    <div>
+    <div id = 'bg'>
       <h2>About Me</h2>
         <div id = "myPic">
           <img src= {myPic} alt= "Me" />

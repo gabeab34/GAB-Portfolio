@@ -1,3 +1,9 @@
+#bg {
+  background-image: url(./components/assets/portfolioBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
 
 .nav-tabs
 {
@@ -7,11 +13,12 @@
   background: repeating-linear-gradient( 45deg, purple, lime );
   height: 100px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #myName {
   position: relative;
-  left: -700px;
+  left: -600px;
   bottom: 20px;
   top: -20px;
 }
@@ -26,10 +33,16 @@
 #aboutMe {
   display: inline-block;
   position: relative;
-  top: -400px;
-  margin-left: 800px;
+  top: -500px;
+  margin-left: 600px;
   max-width: 800px;
   margin-bottom: 200px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 20px;
 
 }
 
@@ -40,7 +53,7 @@ h1 {
 
 h2 {
   text-align: center;
-
+  margin-top: 0px;
 }
 
 li {
