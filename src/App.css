@@ -9,16 +9,38 @@
   margin-top: 0px;
 }
 
-#myname {
+#myName {
   position: relative;
   left: -700px;
   bottom: 20px;
   top: -20px;
 }
 
+#myPic {
+  display: inline-block;
+  max-width: 500px;
+  max-height: 500px;
+  margin-left: 200px;
+}
+
+#aboutMe {
+  display: inline-block;
+  position: relative;
+  top: -400px;
+  margin-left: 800px;
+  max-width: 800px;
+  margin-bottom: 200px;
+
+}
+
 h1 {
   font-size: 50px;
   
+}
+
+h2 {
+  text-align: center;
+
 }
 
 li {
@@ -35,4 +57,15 @@ li a {
 
 li a:visited {
   color: purple;
+}
+
+img {
+  object-fit: contain;
+  max-width: 500px;
+  max-height: 500px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  box-shadow: 10px;
 }

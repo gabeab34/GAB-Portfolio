@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
  <ul className="nav nav-tabs">
-  <div id ='myname'>
+  <div id ='myName'>
   <h1>Gabriel Adams Bogar</h1></div>
         <li className="nav-item">
           <a
