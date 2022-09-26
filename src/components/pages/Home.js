@@ -6,7 +6,7 @@ export default function Home() {
     <div id = 'bg'>
       <h2>About Me</h2>
         <div id = "myPic">
-          <img src= {myPic} alt= "Me" />
+          <img id = "myPic" src= {myPic} alt= "Me" />
         </div>
           <div id= "aboutMe">
             <p>
