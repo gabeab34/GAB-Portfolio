@@ -2,6 +2,10 @@ import React from 'react';
 import eventFinder from "../assets/EventFinder_Screenshot.png"
 import smashMe from "../assets/ScreenshotProject2.png"
 import gitHub from "../assets/githublogo.png"
+import noteTaker from "../assets/noteTaker.png"
+import password from "../assets/password.png"
+import scheduler from "../assets/scheduler.png"
+import weatherApp from "../assets/WeatherApp.png"
 
 export default function About() {
   return (
@@ -21,22 +25,34 @@ export default function About() {
               <img id="gitHub" src = {gitHub}/></a>
         </section>
         <section class ="project">
-            <img src ="https://i.picsum.photos/id/883/200/300.jpg?hmac=L62LMsIBfvhnxlTirzshbyv6HarwJvd-tSSBcIvbCVw"/>
+        <a href="https://gabeab34.github.io/GAB-Weatherapp-C6/" target ="_blank">
+            <img id="project" src = {weatherApp} /></a>
+              <a href='https://github.com/gabeab34/GAB-Weatherapp-C6' target="_blank">
+              <img id="gitHub" src = {gitHub}/></a>
 
 
         </section>
         <section class ="project">
-            <img src ="https://i.picsum.photos/id/311/200/300.jpg?hmac=ltcRErkHQZRTlJl3xZ_6HSzWzco1GSU3zbZhA12WvJw"/>
+        <a href="https://gab-note-taker.herokuapp.com/" target ="_blank">
+            <img id="project" src = {noteTaker} /></a>
+              <a href='https://github.com/gabeab34/GAB-NoteTaker-C11' target="_blank">
+              <img id="gitHub" src = {gitHub}/></a>
 
 
         </section>
         <section class ="project">
-            <img src ="https://i.picsum.photos/id/145/200/300.jpg?hmac=mIsOtHDzbaNzDdNRa6aQCd5CHCVewrkTO5B1D4aHMB8"/>
+        <a href="https://gabeab34.github.io/GAB-Calender-C5/" target ="_blank">
+            <img id="project" src = {scheduler} /></a>
+              <a href='https://github.com/gabeab34/GAB-Calender-C5' target="_blank">
+              <img id="gitHub" src = {gitHub}/></a>
 
 
         </section>
         <section class ="project">
-            <img src ="https://i.picsum.photos/id/145/200/300.jpg?hmac=mIsOtHDzbaNzDdNRa6aQCd5CHCVewrkTO5B1D4aHMB8"/>
+        <a href="https://gabeab34.github.io/GAB-PasswordGenerator-JS-C3/" target ="_blank">
+            <img id="project" src = {password} /></a>
+              <a href='https://github.com/gabeab34/GAB-PasswordGenerator-JS-C3' target="_blank">
+              <img id="gitHub" src = {gitHub}/></a>
 
 
         </section>
