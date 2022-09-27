@@ -14,7 +14,7 @@ export default function Contact() {
           <li>Express</li>
           <li>React</li>
           <li>Node</li>
-          <p id="resumeDl">Download Resume <a href="https://github.com/Jevenden/portfolio/blob/master/docs/John%20Evenden%20Resume.pdf">Here</a></p>
+          <p id="resumeDl">Download Resume <a href="https://github.com/gabeab34/gab-portfolio/blob/main/docs/ResumePDF.pdf">Here</a></p>
       </ul>
     </div>
     </div>
