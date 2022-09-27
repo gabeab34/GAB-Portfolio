@@ -10,6 +10,8 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 0px;
+  height: 1080px;
+  width: 1920px;
 }
 
 .nav-tabs
@@ -71,6 +73,12 @@ h2 {
   border-radius: 20px;
   background-color: lightgray;
   text-align: center;
+}
+
+h3 {
+  margin-left: 25px;
+  font-size: 36px;
+  margin-bottom: 0;
 }
 
 li {
@@ -136,4 +144,58 @@ a img:hover {
   max-width: 100px;
   max-height: 100px;
   border: 0px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+  background: repeating-linear-gradient( 45deg, lime, purple );
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%
+}
+
+#githubFooter, #linkedInFooter{
+  height: 50px;
+  width: 50px;
+  border-width: 0;
+
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 700px;
+  margin-right: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: lightgray;
+  background-blend-mode: soft-light;
+
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  /* border-style: solid;
+  border-width: 50px;
+  background-color: lightgray; */
+}
+
+#skills li {
+  font-size: 20px;
+  color: black;
+}
+
+#resumeDl {
+  font-size: 20px;
 }
