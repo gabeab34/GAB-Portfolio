@@ -5,7 +5,7 @@
 }
 
 #bg {
-  background-color: lightgrey;
+  background-color: goldenrod;
   background-image: url(./components/assets/portfolioBG.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: end;
   padding: 5px;
-  background: repeating-linear-gradient( 45deg, purple, lime );
+  background: repeating-linear-gradient( 45deg, black, white );
   height: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -32,11 +32,12 @@
   top: -20px;
 }
 
-#myPic {
+#myPic img {
   display: inline-block;
   max-width: 500px;
   max-height: 500px;
-  margin-left: 200px;
+  margin-left: 400px;
+  box-shadow: 20px 10px 10px black;
 }
 
 #aboutMe {
@@ -53,12 +54,13 @@
   border-radius: 20px;
   background-color: lightgray;
   font-size: 20px;
+  box-shadow: 20px 10px 10px black;
 
 }
 
 h1 {
   font-size: 50px;
-  
+  text-shadow: 0 0 3px goldenrod;
 }
 
 h2 {
@@ -67,18 +69,16 @@ h2 {
   margin-top: 0px;
   margin-left: 800px;
   margin-right: 800px;
-  border: 5px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 20px;
-  background-color: lightgray;
   text-align: center;
+  font-size: 36px;
+  text-shadow: 0 0 3px goldenrod;
 }
 
 h3 {
   margin-left: 25px;
   font-size: 36px;
   margin-bottom: 0;
+  text-shadow: 0 0 3px goldenrod;
 }
 
 li {
@@ -88,13 +88,21 @@ li {
 }
 
 li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 36px;
+  font-style: bold;
+  text-shadow: 0 0 3px goldenrod;
 }
 
-li a:visited {
+/* li a:visited {
   color: purple;
+  text-shadow: 0 0 3px black;
+} */
+
+li a:hover {
+  color: goldenrod;
+  text-shadow: 0 0 3px black;
 }
 
 img {
@@ -130,7 +138,6 @@ img {
   border-width: 0px;
   border-radius: 1000px;
   box-shadow: 20px 10px 10px black;
-
 }
 
 a img:hover {
@@ -153,18 +160,20 @@ a img:hover {
   display: flex;
   justify-content: end;
   padding: 5px;
-  background: repeating-linear-gradient( 45deg, lime, purple );
+  background: repeating-linear-gradient( 45deg, white, black );
   height: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
   width: 100%
 }
 
-#githubFooter, #linkedInFooter{
+
+#githubFooter, #linkedInFooter, #soFooter{
   height: 50px;
   width: 50px;
-  border-width: 0;
-
+  border-width: 3px;
+  border-color: white;
+  background-color: goldenrod;
 }
 
 #form {
@@ -179,8 +188,8 @@ a img:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: lightgray;
-  background-blend-mode: soft-light;
-
+  border-radius: 20px;
+  box-shadow: 20px 10px 10px black;
 }
 
 #resume {
