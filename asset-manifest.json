@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.fcc470a0.css",
+    "main.js": "/react-gh-pages/static/js/main.e009f6dc.js",
+    "static/js/787.c531fc08.chunk.js": "/react-gh-pages/static/js/787.c531fc08.chunk.js",
+    "static/media/EventFinder_Screenshot.png": "/react-gh-pages/static/media/EventFinder_Screenshot.090db3190eb7fe98e6c0.png",
+    "static/media/portfolioBG.png": "/react-gh-pages/static/media/portfolioBG.518b6073305db174244c.png",
+    "static/media/ScreenshotProject2.png": "/react-gh-pages/static/media/ScreenshotProject2.1a531371da1dd3a2f6aa.png",
+    "static/media/GAB.jpg": "/react-gh-pages/static/media/GAB.0ebf5d4a51677d017c0e.jpg",
+    "static/media/WeatherApp.png": "/react-gh-pages/static/media/WeatherApp.3018363a17fe97c6be05.png",
+    "static/media/scheduler.png": "/react-gh-pages/static/media/scheduler.45d7c205e1317a79eee3.png",
+    "static/media/noteTaker.png": "/react-gh-pages/static/media/noteTaker.d01e112a58a8ca5b8421.png",
+    "static/media/password.png": "/react-gh-pages/static/media/password.8f30bbd3edc0662bb24f.png",
+    "static/media/githublogo.png": "/react-gh-pages/static/media/githublogo.69ffd9cd5a846c976177.png",
+    "static/media/linkedInlogo.png": "/react-gh-pages/static/media/linkedInlogo.cf5d924175cde78ecb5e.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.fcc470a0.css.map": "/react-gh-pages/static/css/main.fcc470a0.css.map",
+    "main.e009f6dc.js.map": "/react-gh-pages/static/js/main.e009f6dc.js.map",
+    "787.c531fc08.chunk.js.map": "/react-gh-pages/static/js/787.c531fc08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcc470a0.css",
+    "static/js/main.e009f6dc.js"
+  ]
+}
