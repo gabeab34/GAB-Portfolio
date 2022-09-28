@@ -95,6 +95,10 @@ li a {
   text-shadow: 0 0 3px goldenrod;
 }
 
+li::marker{
+  font-size: 0;
+}
+
 /* li a:visited {
   color: purple;
   text-shadow: 0 0 3px black;
@@ -167,6 +171,9 @@ a img:hover {
   width: 100%
 }
 
+#footer li::marker{
+  font-size: 0
+}
 
 #githubFooter, #linkedInFooter, #soFooter{
   height: 50px;
@@ -204,6 +211,11 @@ a img:hover {
   font-size: 20px;
   color: black;
 }
+
+#skills li::marker{
+  font-size: 20px;
+}
+
 
 #resumeDl {
   font-size: 20px;
