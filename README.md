@@ -28,6 +28,7 @@
   
   ## Usage: 
   This app can be run by using npm start
+  deployment link: https://gabeab34.github.io/gab-portfolio/
 
   ## License:
   none 
