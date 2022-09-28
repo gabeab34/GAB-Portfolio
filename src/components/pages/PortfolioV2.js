@@ -8,8 +8,8 @@ export default function Portfolio() {
     <div id= 'bg'>
       <h2>My Work</h2>
     <main>
-        <div class ="project">
-          {Projects.slice(0).map((project) => (
+        <div className="project">
+          {Projects.map((project) => (
             <><a href={project.deploymentUrl} target="_blank" rel="noreferrer">
               <img id="project" src={project.imgSrc} alt="" /></a>
                 <a href={project.githubRepo} target="_blank" rel="noreferrer">
