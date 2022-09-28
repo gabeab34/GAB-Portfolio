@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './components/NavTabs';
 import AboutMe from './components/pages/AboutMe';
-import Portfolio from './components/pages/Portfolio';
+import Portfolio from './components/pages/PortfolioV2';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Footer from './components/Footer';
