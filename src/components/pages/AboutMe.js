@@ -1,7 +1,7 @@
 import React from 'react';
 import myPic from '../assets/GAB.jpg'
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <div id = 'bg'>
       <h2>About Me</h2>

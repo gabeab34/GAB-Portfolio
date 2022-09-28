@@ -7,7 +7,7 @@ import password from "../assets/password.png"
 import scheduler from "../assets/scheduler.png"
 import weatherApp from "../assets/WeatherApp.png"
 
-export default function About() {
+export default function Portfolio() {
   return (
     <div id= 'bg'>
       <h2>My Work</h2>
