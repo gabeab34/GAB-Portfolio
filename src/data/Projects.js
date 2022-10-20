@@ -1,9 +1,10 @@
 import eventFinder from "../components/assets/EventFinder_Screenshot.png"
-import smashMe from "../components/assets/ScreenshotProject2.png"
+// import smashMe from "../components/assets/ScreenshotProject2.png"
 import noteTaker from "../components/assets/noteTaker.png"
 import password from "../components/assets/password.png"
 import scheduler from "../components/assets/scheduler.png"
 import weatherApp from "../components/assets/WeatherApp.png"
+import viewfromhere from "../components/assets/viewfromhere.png"
 
 const Projects = [
     {
@@ -15,10 +16,10 @@ const Projects = [
     },
     {
         id: 2,
-        name: "smashMe",
-        deploymentUrl: "https://supersmashme.herokuapp.com/",
-        githubRepo: "https://github.com/gabeab34/Smash.ME",
-        imgSrc: `${smashMe}`
+        name: "View-From-Here",
+        deploymentUrl: "https://viewfromhere.herokuapp.com/",
+        githubRepo: "https://github.com/MMMPhoto/View-From-Here",
+        imgSrc: `${viewfromhere}`
     },
     {
         id: 3,
