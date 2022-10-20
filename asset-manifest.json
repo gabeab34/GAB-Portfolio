@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/gab-portfolio/static/css/main.111d6a05.css",
-    "main.js": "/gab-portfolio/static/js/main.35a527af.js",
+    "main.js": "/gab-portfolio/static/js/main.629daadc.js",
     "static/js/787.c531fc08.chunk.js": "/gab-portfolio/static/js/787.c531fc08.chunk.js",
+    "static/media/viewfromhere.png": "/gab-portfolio/static/media/viewfromhere.01866f199c26a3bfb7ad.png",
     "static/media/EventFinder_Screenshot.png": "/gab-portfolio/static/media/EventFinder_Screenshot.090db3190eb7fe98e6c0.png",
     "static/media/portfolioBG.png": "/gab-portfolio/static/media/portfolioBG.518b6073305db174244c.png",
-    "static/media/ScreenshotProject2.png": "/gab-portfolio/static/media/ScreenshotProject2.1a531371da1dd3a2f6aa.png",
     "static/media/GAB.jpg": "/gab-portfolio/static/media/GAB.0ebf5d4a51677d017c0e.jpg",
     "static/media/WeatherApp.png": "/gab-portfolio/static/media/WeatherApp.3018363a17fe97c6be05.png",
     "static/media/scheduler.png": "/gab-portfolio/static/media/scheduler.45d7c205e1317a79eee3.png",
@@ -15,11 +15,11 @@
     "static/media/linkedInlogo.png": "/gab-portfolio/static/media/linkedInlogo.cf5d924175cde78ecb5e.png",
     "index.html": "/gab-portfolio/index.html",
     "main.111d6a05.css.map": "/gab-portfolio/static/css/main.111d6a05.css.map",
-    "main.35a527af.js.map": "/gab-portfolio/static/js/main.35a527af.js.map",
+    "main.629daadc.js.map": "/gab-portfolio/static/js/main.629daadc.js.map",
     "787.c531fc08.chunk.js.map": "/gab-portfolio/static/js/787.c531fc08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.111d6a05.css",
-    "static/js/main.35a527af.js"
+    "static/js/main.629daadc.js"
   ]
 }
