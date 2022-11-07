@@ -6,7 +6,6 @@ import Projects from '../../data/Projects.js';
 export default function Portfolio() {
   return (
     <div id= 'bg'>
-      <h2>My Work</h2>
     <main>
         <div className="project">
           {Projects.map((project) => (

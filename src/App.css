@@ -5,74 +5,75 @@
 }
 
 #bg {
+  display: flex;
   background-color: goldenrod;
   background-image: url(./components/assets/portfolioBG.png);
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 0px;
-  height: 1080px;
-  width: 1920px;
+  background-size: contain;
+
+  padding: 10vh;
+  padding-bottom: 25vh;
+  
+}
+
+img#bg {
+  width: 100%;
 }
 
 .nav-tabs
 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 5px;
   background: repeating-linear-gradient( 45deg, black, white );
   height: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
+  width: 100%;
 }
 
-#myName {
-  position: relative;
-  left: -600px;
-  bottom: 20px;
-  top: -20px;
-}
 
-#myPic img {
+
+
+
+img#myPic  {
   display: inline-block;
   max-width: 500px;
-  max-height: 500px;
-  margin-left: 400px;
+  max-height: 460px;
   box-shadow: 20px 10px 10px black;
 }
 
 #aboutMe {
-  display: inline-block;
-  position: relative;
-  top: -500px;
-  left: 200px;
-  margin-left: 600px;
-  max-width: 800px;
-  margin-bottom: 200px;
+  display: flex;
+  margin-left: 150px;
   border: 5px;
+  padding: 5px;
   border-style: solid;
   border-color: black;
   border-radius: 20px;
   background-color: lightgray;
   font-size: 20px;
   box-shadow: 20px 10px 10px black;
+  width: 60%;
+  height: fit-content;
+}
 
+#myName {
+  display: flex;
+  justify-content: left;
 }
 
 h1 {
+  align-content: flex-start;
   font-size: 50px;
   text-shadow: 0 0 3px goldenrod;
+  padding: 10px;
+  margin-top: 0;
+
+
 }
 
-h2 {
-  position: relative;
-  top: -75px;
-  margin-top: 0px;
-  margin-left: 800px;
-  margin-right: 800px;
-  text-align: center;
-  font-size: 36px;
-  text-shadow: 0 0 3px goldenrod;
-}
 
 h3 {
   margin-left: 25px;
@@ -99,14 +100,18 @@ li::marker{
   font-size: 0;
 }
 
+a.nav-link.active {
+  color: goldenrod;
+  text-shadow: 0 0 3px black;
+}
 /* li a:visited {
   color: purple;
-  text-shadow: 0 0 3px black;
+  
 } */
 
 li a:hover {
   color: goldenrod;
-  text-shadow: 0 0 3px black;
+  
 }
 
 img {
@@ -121,17 +126,14 @@ img {
 
 
 .project {
-  display: inline-block;
   flex: 1 0 50%;
   flex-direction: row;
+  overflow-wrap:inherit;
   align-items: center;
   text-align: center;
-  /* border-style: groove; */
-  border-width: 10px;
-  height: max-content;
-  width: auto ;
-  margin-left: 100px;
-  margin-right: 50px;
+  margin-left: 10%;
+
+
   
 }
 
@@ -141,6 +143,7 @@ img {
   border-width: 0px;
   border-radius: 1000px;
   box-shadow: 20px 10px 10px black;
+ 
 
 }
 
@@ -186,25 +189,30 @@ a img:hover {
 #form {
   display: flex;
   flex-direction: column;
+  justify-self: flex-end;
   align-items: center;
   border: 5px;
   border-style: solid;
   border-color: black;
-  margin-left: 700px;
-  margin-right: 700px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  padding-Top: 0px;
   background-color: lightgray;
   border-radius: 20px;
   box-shadow: 20px 10px 10px black;
+  margin-left: 35vh;
+  margin-top: 5vh
+
 }
 
 #resume {
   display: flex;
   flex-direction: column;
   /* border-style: solid;
-  border-width: 50px;
+  border-color: black;
+  border-radius: 20px;
   background-color: lightgray; */
+  padding: 15px
+
 }
 
 #skills li {
