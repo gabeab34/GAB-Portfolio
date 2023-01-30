@@ -14,7 +14,8 @@ export default function AboutMe() {
             Worked on a team of three to create View-From-Here, a web application that allows users to upload photos and automatically places the image on a google maps component 
             using the gps data contained within the image. This two week project required constant collaboration and extensive planning to organize the workload. Focused on the front-end, 
             specifically the UI/UX design of the website, including making it mobile-friendly and easy to understand for a new user. Looking to work on a team of designers and programmers 
-            that know how to leverage their strengths and weaknesses in a collaborative fashion to create interesting and intuitive applications.
+            that know how to leverage their strengths and weaknesses in a collaborative fashion to create interesting and intuitive applications. Click on the GitHub and LinkedIn buttons on the upper left
+            to view my profiles on those sites, or click on either my web or video portfolio to view projects that I've previously worked on.
            </p>
           </div>
     </div>

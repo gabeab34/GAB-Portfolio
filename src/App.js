@@ -4,7 +4,8 @@ import AboutMe from './components/pages/AboutMe';
 import Portfolio from './components/pages/PortfolioV2';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
+import Video from './components/pages/Video'
 import "./App.css";
 
 
@@ -12,7 +13,7 @@ import "./App.css";
 
 function App() {
 
- const [currentPage, setCurrentPage] = useState('AboutMe');
+ const [currentPage, setCurrentPage] = useState('Portfolio');
 
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
@@ -21,8 +22,8 @@ function App() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Contact') {
-      return <Contact />;
+    if (currentPage === 'Video') {
+      return <Video />;
     }
     return <Resume />;
   };
@@ -31,9 +32,9 @@ function App() {
 
   return (
     <><div><NavTabs currentPage={currentPage} handlePageChange={handlePageChange} /></div>
-    <div><Footer currentPage={currentPage} handlePageChange={handlePageChange} />
+    
      {renderPage()}
-    </div></>
+    </>
   );
 }
 

@@ -10,9 +10,9 @@ export default function Portfolio() {
         <div className="project">
           {Projects.map((project) => (
             <><a href={project.deploymentUrl} target="_blank" rel="noreferrer">
-              <img id="project" src={project.imgSrc} alt="" /></a>
-                <a href={project.githubRepo} target="_blank" rel="noreferrer">
-                <img id="gitHub" src={gitHub} alt="" /></a></>
+              <img id="project" src={project.imgSrc} alt="" /></a></>
+                // <a href={project.githubRepo} target="_blank" rel="noreferrer">
+                // <img id="gitHub" src={gitHub} alt="" /></a></>
           ))}
           </div>
         </main>

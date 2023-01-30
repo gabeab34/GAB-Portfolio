@@ -1,6 +1,6 @@
 import eventFinder from "../components/assets/EventFinder_Screenshot.png"
-import smashMe from "../components/assets/ScreenshotProject2.png"
-// import noteTaker from "../components/assets/noteTaker.png"
+// import smashMe from "../components/assets/ScreenshotProject2.png"
+import noteTaker from "../components/assets/noteTaker.png"
 import password from "../components/assets/password.png"
 import scheduler from "../components/assets/scheduler.png"
 import weatherApp from "../components/assets/WeatherApp.png"
@@ -30,10 +30,10 @@ const Projects = [
     },
     {
         id: 4,
-        name: "Smash.Me",
-        deploymentUrl: "https://supersmashme.herokuapp.com/",
-        githubRepo: "https://github.com/gabeab34/Smash.ME",
-        imgSrc: `${smashMe}`
+        name: "NoteTaker",
+        deploymentUrl: "https://gab-note-taker.herokuapp.com/",
+        githubRepo: "https://github.com/gabeab34/GAB-NoteTakerApp",
+        imgSrc: `${noteTaker}`
     },
     {
         id: 5,
