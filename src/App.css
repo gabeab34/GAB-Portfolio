@@ -26,7 +26,8 @@ img#bg {
   display: flex;
   justify-content: center;
   padding: 5px;
-  background: repeating-linear-gradient( 45deg, black, white );
+  /* background: repeating-linear-gradient( 45deg, black, white ); */
+  background: goldenrod;
   height: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -67,7 +68,7 @@ img#myPic  {
 h1 {
   align-content: flex-start;
   font-size: 50px;
-  text-shadow: 0 0 3px goldenrod;
+  text-shadow: 0 0 3px white;
   padding: 10px;
   margin-top: 0;
 
@@ -79,7 +80,7 @@ h3 {
   margin-left: 25px;
   font-size: 36px;
   margin-bottom: 0;
-  text-shadow: 0 0 3px goldenrod;
+  text-shadow: 0 0 3px white;
 }
 
 li {
@@ -94,7 +95,7 @@ li a {
   text-decoration: none;
   font-size: 36px;
   font-style: bold;
-  text-shadow: 0 0 3px goldenrod;
+  text-shadow: 0 0 3px white;
 }
 
 li::marker{
@@ -108,7 +109,7 @@ li::marker{
 }
 
 a.nav-link.active {
-  color: goldenrod;
+  color: white;
   text-shadow: 0 0 3px black;
 }
 /* li a:visited {
