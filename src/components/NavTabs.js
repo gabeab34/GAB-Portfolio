@@ -29,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
-            Web Portfolio
+            Web
           </a>
         </li>
         <li className="nav-item">
@@ -38,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange('Video')}
             className={currentPage === 'Video' ? 'nav-link active' : 'nav-link'}
           >
-            Video Portfolio
+            Video
           </a>
         </li>
         
