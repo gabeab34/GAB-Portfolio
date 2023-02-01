@@ -85,7 +85,7 @@ h3 {
 li {
   margin: 0 20px;
   margin-top: 20px;
-  color: white;
+
   
 }
 
@@ -99,6 +99,12 @@ li a {
 
 li::marker{
   font-size: 0;
+}
+
+#aboutMe li::marker{
+  font-size: 20px;
+  content: "⭐";
+  
 }
 
 a.nav-link.active {
