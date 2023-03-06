@@ -7,7 +7,8 @@ export default function AboutMe() {
        <img id = "myPic" src= {myPic} alt= "Me" /> 
         <div id= "aboutMe">
             <ul>
-            <p>Hi there! My name is Gabriel Adams Bogar and I'm a full-stack developer with previous experience in the event industry interfacing directly with clients and 
+            <h2>Hello and welcome to my multimedia portfolio!</h2> 
+            <p>My name is Gabriel Adams Bogar and I'm a full-stack developer with previous experience in the event industry interfacing directly with clients and 
             making sure their expectations become reality.</p> 
             <li>Very experienced working with strict deadlines and under pressure, as well as working with others that have ideas 
             and skills that fall outside my purview.</li> 

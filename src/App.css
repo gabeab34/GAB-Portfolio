@@ -77,6 +77,12 @@ h1 {
 
 }
 
+h2 {
+  text-align: left;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 1px 1.5px goldenrod;
+}
+
 
 h3 {
   margin-left: 25px;
@@ -183,7 +189,19 @@ img {
 }
 
 a img:hover {
-  transform: scale(1.5);
+  animation: pulse 2s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.2);   
+  }
+    100% {
+    transform: scale(1.5s);   
+  }
 }
 
 #gitHub{
@@ -266,4 +284,8 @@ a img:hover {
 
 ul {
 font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  padding-right: 5px;
 }
