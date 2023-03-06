@@ -42,7 +42,8 @@ img#myPic  {
   display: inline-block;
   max-width: 500px;
   max-height: 460px;
-  box-shadow: 20px 10px 10px black;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 180px;
 }
 
 #aboutMe {
@@ -261,4 +262,8 @@ a img:hover {
 
 #resumeDl {
   font-size: 20px;
+}
+
+ul {
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
