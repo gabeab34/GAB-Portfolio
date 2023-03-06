@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gab-portfolio/static/css/main.4de00acd.css",
-    "main.js": "/gab-portfolio/static/js/main.3f98685f.js",
+    "main.css": "/gab-portfolio/static/css/main.8c63513f.css",
+    "main.js": "/gab-portfolio/static/js/main.ad8b0a2b.js",
     "static/js/787.c531fc08.chunk.js": "/gab-portfolio/static/js/787.c531fc08.chunk.js",
     "static/media/viewfromhere.png": "/gab-portfolio/static/media/viewfromhere.01866f199c26a3bfb7ad.png",
     "static/media/Timelapse1.png": "/gab-portfolio/static/media/Timelapse1.b94216de7139a2b61472.png",
@@ -20,12 +20,12 @@
     "static/media/githublogo.png": "/gab-portfolio/static/media/githublogo.69ffd9cd5a846c976177.png",
     "static/media/linkedInlogo.png": "/gab-portfolio/static/media/linkedInlogo.cf5d924175cde78ecb5e.png",
     "index.html": "/gab-portfolio/index.html",
-    "main.4de00acd.css.map": "/gab-portfolio/static/css/main.4de00acd.css.map",
-    "main.3f98685f.js.map": "/gab-portfolio/static/js/main.3f98685f.js.map",
+    "main.8c63513f.css.map": "/gab-portfolio/static/css/main.8c63513f.css.map",
+    "main.ad8b0a2b.js.map": "/gab-portfolio/static/js/main.ad8b0a2b.js.map",
     "787.c531fc08.chunk.js.map": "/gab-portfolio/static/js/787.c531fc08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de00acd.css",
-    "static/js/main.3f98685f.js"
+    "static/css/main.8c63513f.css",
+    "static/js/main.ad8b0a2b.js"
   ]
 }
