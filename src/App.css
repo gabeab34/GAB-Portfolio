@@ -61,6 +61,7 @@ img#myPic  {
 }
 
 #myName {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: flex;
   justify-content: left;
 }
@@ -68,7 +69,7 @@ img#myPic  {
 h1 {
   align-content: flex-start;
   font-size: 50px;
-  text-shadow: 0 0 3px white;
+  text-shadow: 5px 5px goldenrod;
   padding: 10px;
   margin-top: 0;
 
@@ -118,7 +119,9 @@ a.nav-link.active {
 } */
 
 li a:hover {
-  color: goldenrod;
+  color: white;
+  text-shadow: 0 0 10px cornflowerblue;
+
   
 }
 
