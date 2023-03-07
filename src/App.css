@@ -25,15 +25,15 @@ img#bg {
 {
   display: flex;
   justify-content: center;
+  justify-content: space-around;
   padding: 5px;
   /* background: repeating-linear-gradient( 45deg, black, white ); */
   background-image:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   height: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 100%;
+  width: 100%;  
 }
-
 
 
 
@@ -63,18 +63,14 @@ img#myPic  {
 
 #myName {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  display: flex;
-  justify-content: left;
 }
 
 h1 {
   align-content: flex-start;
-  font-size: 50px;
+  font-size: 75px;
   text-shadow: 5px 5px goldenrod;
   padding: 10px;
   margin-top: 0;
-
-
 }
 
 h2 {
@@ -94,8 +90,6 @@ h3 {
 li {
   margin: 0 20px;
   margin-top: 20px;
-
-  
 }
 
 li a {
@@ -114,6 +108,16 @@ li::marker{
   font-size: 20px;
   content: "⭐";
   
+}
+
+a.nav-link {
+  display: flex;
+  margin-top: 15px;
+}
+
+a.gitHub, a.linkedIn {
+  display: flex;
+  margin-top: 15px
 }
 
 a.nav-link.active {
