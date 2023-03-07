@@ -67,7 +67,7 @@ img#myPic  {
 
 h1 {
   align-content: flex-start;
-  font-size: 75px;
+  font-size: 70px;
   text-shadow: 5px 5px goldenrod;
   padding: 10px;
   margin-top: 0;
@@ -117,7 +117,7 @@ a.nav-link {
 
 a.gitHub, a.linkedIn {
   display: flex;
-  margin-top: 15px
+  margin-top: 10px
 }
 
 a.nav-link.active {
