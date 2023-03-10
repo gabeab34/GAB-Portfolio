@@ -1,6 +1,6 @@
 import eventFinder from "../components/assets/EventFinder_Screenshot.png"
 // import smashMe from "../components/assets/ScreenshotProject2.png"
-import noteTaker from "../components/assets/noteTaker.png"
+// import noteTaker from "../components/assets/noteTaker.png"
 import password from "../components/assets/password.png"
 import scheduler from "../components/assets/scheduler.png"
 import weatherApp from "../components/assets/WeatherApp.png"
@@ -28,22 +28,22 @@ const Projects = [
         githubRepo: "https://github.com/gabeab34/GAB-WeatherApp",
         imgSrc: `${weatherApp}`
     },
+    // {
+    //     id: 4,
+    //     name: "NoteTaker",
+    //     deploymentUrl: "https://gab-note-taker.herokuapp.com/",
+    //     githubRepo: "https://github.com/gabeab34/GAB-NoteTakerApp",
+    //     imgSrc: `${noteTaker}`
+    // },
     {
         id: 4,
-        name: "NoteTaker",
-        deploymentUrl: "https://gab-note-taker.herokuapp.com/",
-        githubRepo: "https://github.com/gabeab34/GAB-NoteTakerApp",
-        imgSrc: `${noteTaker}`
-    },
-    {
-        id: 5,
         name: "scheduler",
         deploymentUrl: "https://gabeab34.github.io/GAB-DayScheduler/",
         githubRepo: "https://github.com/gabeab34/GAB-DayScheduler",
         imgSrc: `${scheduler}`
     },
     {
-        id: 6,
+        id: 5,
         name: "password",
         deploymentUrl: "https://gabeab34.github.io/GAB-PasswordGeneratorJS/",
         githubRepo: "https://github.com/gabeab34/GAB-PasswordGeneratorJS",
