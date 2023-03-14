@@ -273,8 +273,9 @@ a img:hover {
 
 li {
   font-size: 20px;
-  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
-  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke;
+  color: black;
 }
 
 #skills li::marker{
@@ -292,7 +293,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
-  color: white;
-  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+  font-weight: bold;
+  color: black;
+  text-shadow: 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke;
   padding-right: 5px;
 }
