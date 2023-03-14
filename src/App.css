@@ -6,8 +6,7 @@
 
 #bg {
   display: flex;
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
-  background-image:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c),  url(./components/assets/portfolioBG.png);
+  background-image:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c), url(./components/assets/portfolioBG.png); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -54,7 +53,7 @@ img#myPic  {
   border-style: solid;
   border-color: black;
   border-radius: 20px;
-  background-color: lightgray;
+  background-image:url(./components/assets/portfolioBG.png);  
   font-size: 20px;
   box-shadow: 20px 10px 10px black;
   width: 60%;
@@ -272,9 +271,10 @@ a img:hover {
 
 }
 
-#skills li {
+li {
   font-size: 20px;
-  color: black;
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+  color: white;
 }
 
 #skills li::marker{
@@ -287,9 +287,12 @@ a img:hover {
 }
 
 ul {
+  
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
+  color: white;
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
   padding-right: 5px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import gitHub from "../assets/githublogo.png"
+// import gitHub from "../assets/githublogo.png"
 import Projects from '../../data/Projects.js';
 
 
