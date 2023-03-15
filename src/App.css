@@ -161,21 +161,22 @@ img {
   flex: 1 0 50%;
   flex-direction: row;
   overflow-wrap:inherit;
-  align-items: center;
+  justify-content: center;
   text-align: center;
-  /* margin-left: 10%; */
+  
+  margin-right: 10px;
 
 
   
 }
 
 #project {
-  width: 600px;
+  width: 550px;
   height: 300px;
   border-width: 0px;
   border-radius: 1000px;
   box-shadow: 20px 10px 10px black;
- 
+  
 
 }
 
@@ -185,7 +186,7 @@ img {
   overflow-wrap:inherit;
   align-items: center;
   text-align: center;
-  
+
   
   
 
@@ -194,7 +195,7 @@ img {
 }
 
 #vproject {
-  width: 600px;
+  width: 550px;
   height: 300px;
   border-width: 0px;
   border-radius: 1000px;
