@@ -16,10 +16,6 @@
   
 }
 
-img#bg {
-  width: 100%;
-}
-
 .nav-tabs
 {
   display: flex;
@@ -40,24 +36,38 @@ img#bg {
 img#myPic  {
   display: inline-block;
   max-width: 500px;
-  max-height: 460px;
+  max-height: 600px;
   box-shadow: 10px 10px 10px black;
-  border-radius: 180px;
+  border-radius: 270px;
 }
 
 #aboutMe {
   display: flex;
+  position: relative;
   margin-left: 150px;
   border: 5px;
   padding: 5px;
   border-style: solid;
   border-color: black;
   border-radius: 20px;
-  background-image:url(./components/assets/portfolioBG.png);  
+  
   font-size: 20px;
   box-shadow: 20px 10px 10px black;
   width: 60%;
   height: fit-content;
+}
+
+#aboutMe::before {
+  content: "";
+  background-image:url(./components/assets/portfolioBG.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+  
 }
 
 #myName {
@@ -73,7 +83,8 @@ h1 {
 }
 
 h2 {
-  text-align: left;
+  position: relative;
+  text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-shadow: 1px 1.5px goldenrod;
 }
@@ -272,9 +283,10 @@ a img:hover {
 }
 
 li {
+  position: relative;
   font-size: 20px;
   font-weight: bold;
-  text-shadow: 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke;
+  text-shadow: 0 0 1px whitesmoke, 0 0 1px whitesmoke, 0 0 1px whitesmoke, 0 0 1px whitesmoke;
   color: black;
 }
 
@@ -293,8 +305,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
+  position: relative;
   font-weight: bold;
   color: black;
-  text-shadow: 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke, 0 0 15px whitesmoke;
+  text-shadow: 0 0 1px whitesmoke, 0 0 1px whitesmoke, 0 0 1px whitesmoke, 0 0 1px whitesmoke;
   padding-right: 5px;
 }
